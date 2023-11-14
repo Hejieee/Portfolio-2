@@ -1,0 +1,373 @@
+
+@font-face {
+    font-family: "Recursive Regular";
+    src: url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.eot");
+    src: url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/48f89c42c736ac260f511058474a8a6d.svg#Recursive Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.eot");
+    src: url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0d4bd6300a54d19c5fc62fe7e07c48cb.svg#Anton")format("svg");
+}
+
+@font-face {
+    font-family: "VALORANT";
+    src: url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.eot");
+    src: url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e7322a6673613ab13604fadda3d20e56.svg#VALORANT")format("svg");
+}
+
+html{
+    min-height: 100%;
+}
+body {
+    background-color: #feeae9;
+    width: 100vh;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #feeae9;
+    border-bottom: 1px solid #CE6667;
+    z-index: 1;
+}
+
+.il {
+    border-top: 0px solid #CE6667;
+    position: absolute;
+    width: 10vh;
+    top: -650px;
+    left: 3.81%;
+}
+
+.il2 {
+    border-top: 0px solid #CE6667;
+    position: absolute;
+    width: 10vh;
+    top: 2300px;
+    left: 3.81%;
+}
+
+.port {
+    color: #CE6667;
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    font-family: "VALORANT";
+    font-size: 70px;
+    left: -52px;
+    top: 270px;
+}
+
+.wrk {
+    color: #CE6667;
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    font-family: "VALORANT";
+    font-size: 70px;
+    left: -52px;
+    top: -300px;
+}
+
+.crt {
+    color: #CE6667;
+    position: absolute;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    font-family: "VALORANT";
+    font-size: 70px;
+    left: -52px;
+    top: 2600px;
+}
+
+.vl {
+    border-left: 1px solid #CE6667;
+    position: absolute;
+    height: 380vh;
+    left: 70px;
+    top: 1px;
+}
+
+.navbar {
+    background-color: #feeae9;
+}
+
+.nav-item {
+    float: left;
+    list-style-type: none;
+    padding: 13px 10px;
+    color: #CE6667;
+    font-family: "Recursive Regular";
+}
+
+.gram {
+    float: left;
+    height: 49px;
+    width: 117px;
+    margin-left: 70px;
+    margin-right: 30px;
+    border-left: 1px solid #CE6667;
+}
+
+.home-sec{
+    margin-top: 30px;
+}
+
+.pried-chicken1 {
+    color: #CE6667;
+    font-family: "Recursive Regular";
+    position: relative;
+    top: 100px;
+    right: -110px;
+    font-size: 30px;
+}
+
+.haha1 {
+    font-family: "Anton";
+    color: #CE6667;
+    position: relative;
+    top: 100px;
+    right: -110px;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+
+.pried-chicken2 {
+    color: #CE6667;
+    font-family: "Recursive Regular";
+    position: relative;
+    top: 140px;
+    left: 107px;
+    font-size: 25px;
+}
+
+.butones {
+    font-family: "Anton";
+    background-color: #CE6667;
+    border: none;
+    padding: 7px 7px;
+    position: relative;
+    bottom: -160px;
+    left: 107px;
+    font-size: 20px;
+}
+
+.butoness {
+    font-family: "Anton";
+    border-color: #CE6667;
+    box-shadow: none;
+    padding: 7px 7px;
+    position: relative;
+    bottom: -160px;
+    left: 150px;
+    font-size: 20px;
+}
+
+.butonesss {
+    font-family: "Anton";
+    background-color: #CE6667;
+    border: none;
+    float: right;
+    position: relative;
+    bottom: 655px;
+    left: 915px;
+    font-size: 35px;
+    z-index: 1;
+}
+
+
+.butones1 {
+    border-radius: 999em 999em 999em 999em;
+    padding: 15px 15px;
+    color: white;
+}
+
+.butones2 {
+    border-radius: 999em 999em 999em 999em;
+    padding: 15px 15px;
+    color: #CE6667;
+}
+
+.butones3 {
+    color: white;
+}
+
+.dismissed{
+    position: relative;
+    left: 1100px;
+    bottom: 550px;
+}
+
+.linya {
+    position: relative;
+    left: 560px;
+}
+
+.za-work {
+    position: relative;
+    top: -150px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.game {
+    padding: 50px 20px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 88px;
+    top: -600px;
+}
+
+.game2 {
+    padding: 50px 20px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 380px;
+    bottom: 200px;
+}
+
+.game3 {
+    padding: 50px 20px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 700px;
+    bottom: 600px;
+}
+
+.game-text {
+    font-family: "Recursive Regular";
+    text-align: center;
+    font-size: 20px;
+    color: #CE6667;
+    position: relative;
+    right: -90px;
+    top: -600px;
+}
+
+.game-text2 {
+    font-family: "Recursive Regular";
+    text-align: center;
+    font-size: 20px;
+    color: #CE6667;
+    position: relative;
+    right: -380px;
+    bottom: 800px;
+}
+
+.game-text3 {
+    font-family: "Recursive Regular";
+    text-align: center;
+    font-size: 20px;
+    color: #CE6667;
+    position: relative;
+    right: -700px;
+    bottom: 600px;
+}
+
+.work {
+    margin-top: 500px;
+    position: relative;
+    top: 200px;
+}
+
+.certs {
+    margin-top: 300px;
+    margin-bottom: -10px;
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.cert1 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 500px;
+}
+
+.cert2 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 500px;
+}
+
+.cert3 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 500px;
+}
+
+.cert4 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 50px;
+    left: -1860px;
+}
+
+.cert5 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 50px;
+    left: -1860px;
+}
+
+.cert6 {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 50px 110px;
+    bottom: 50px;
+    left: -1860px;
+}
+
+.linya2 {
+    position: relative;
+    left: 560px;
+    top: -600px;
+}
+
+.cert13 {
+    display: flex;
+    border-color: #CE6667;
+}
+
+.cert46 {
+    display: flex;
+    border-color: #CE6667;
+}
